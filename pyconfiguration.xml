@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>pyconfiguration</name>
+  <summary>python configuration library</summary>
+  <description>
+    Python configuration library deals with:
+
+    - Locating configuration
+    - Parsing configuration
+  </description>
+
+  <!--<homepage></homepage>-->
+  <!--<icon href=".png" type="image/png"/>-->
+
+  <feed-for interface="TODO"/>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <!--
+    <command name="test" path="tests/testall.py">
+      <runner interface="http://repo.roscidus.com/python/python">
+        <version before="3"/>
+      </runner>
+    </command>
+    -->
+    <implementation id="." version="0.1-pre"/>
+  </group>
+</interface>
